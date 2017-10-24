@@ -9,10 +9,23 @@
  */
 public class Bank {
 
-    public String bankName;
+    /** The name of the bank account.
+     *
+     */
+    private String bankName;
+    /** The type of the bank account.
+     *
+     */
+    private String bankAccountType;
 
+    /**  Initialize a bank account.
+     *
+     */
     public Bank() {
         bankName = "Illini Bank";
+        bankAccountType = "Checking";
+
+
     }
 
     /**
